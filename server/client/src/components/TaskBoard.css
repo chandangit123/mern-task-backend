@@ -1,0 +1,6 @@
+/* src/components/TaskBoard.css */
+.task-board {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

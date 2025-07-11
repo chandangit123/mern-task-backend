@@ -1,0 +1,36 @@
+.task-container {
+  padding: 1rem;
+}
+
+.task-list li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.conflict-modal {
+  position: fixed;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  border: 2px solid #ff6b6b;
+  padding: 1rem;
+  z-index: 1000;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.conflict-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.conflict-details pre {
+  background: #f7f7f7;
+  padding: 0.5rem;
+  overflow-x: auto;
+  font-size: 0.85rem;
+  max-height: 200px;
+}
